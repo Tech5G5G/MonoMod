@@ -1,3 +1,8 @@
+## DO NOT USE THIS
+This fork is meant to be used with [Tech5G5G/MicaVisualStudio](https://github.com/Tech5G5G/Mica-Visual-Studio) ONLY. For upstream, see [MonoMod/MonoMod](https://github.com/MonoMod/MonoMod).
+
+This fork allows/patches support for ARM64 systems on .NET Framework 4.8.1 when using [ILHook](https://monomod.dev/api/MonoMod.RuntimeDetour.ILHook.html) (and possibly other runtime detours, although not tested), rather than actually adding support (ABIs, etc.). It removes the exception thrown by [FxCoreBaseRuntime.Abi](https://github.com/MonoMod/MonoMod/blob/reorganize/src/MonoMod.Core/Platforms/Runtimes/FxCoreBaseRuntime.cs#L28) and returns the default value of [Abi](https://github.com/MonoMod/MonoMod/blob/reorganize/src/MonoMod.Core/Platforms/Abi.cs#83), which, for the purposes of using ILHook, appears to work.
+
 # MonoMod
 <!-- #links -->
 <a href="https://discord.gg/jm7GCZB"><img align="right" alt="MonoMod Discord" src="https://discordapp.com/api/guilds/295566538981769216/embed.png?style=banner2" /></a>
