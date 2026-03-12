@@ -1,3 +1,6 @@
+> [!NOTE]
+> As of [MonoMod.RuntimeDetour](https://www.nuget.org/packages/MonoMod.RuntimeDetour/25.3.4) 25.3.4, official support for Windows ARM64 has been added, making this repo redundant. As such, this repo is now deprecated and archived. Mica Visual Studio will use the NuGet version of MonoMod from here on out.
+
 ## DO NOT USE THIS
 This fork is meant to be used with [Tech5G5G/MicaVisualStudio](https://github.com/Tech5G5G/Mica-Visual-Studio) ONLY. For upstream, see [MonoMod/MonoMod](https://github.com/MonoMod/MonoMod).
 
